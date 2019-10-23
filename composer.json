@@ -1,5 +1,5 @@
 {
-    "name": "tanmay/clockify",
+    "name": "tanmayk/clockify",
     "description": "PHP wrapper for https://clockify.me/developers-api.",
     "type": "library",
     "license": "MIT",
