@@ -1,3 +1,5 @@
+vendor
+
 # Runtime files
 .log
 .lock
