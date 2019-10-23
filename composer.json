@@ -1,0 +1,15 @@
+{
+    "name": "tanmay/clockify",
+    "description": "PHP wrapper for https://clockify.me/developers-api.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tanmay Khedekar",
+            "email": "tanmay.khedekar01@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.6"
+    }
+}

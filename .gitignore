@@ -1,0 +1,11 @@
+# Runtime files
+.log
+.lock
+.tmp
+
+# Hidden system files
+.DS_Store
+Thumbs.db
+
+# PHP build
+web
