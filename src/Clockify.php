@@ -1,6 +1,6 @@
 <?php
 
-namespace Clockify\Clockify;
+namespace Clockify;
 
 use GuzzleHttp\Client;
 

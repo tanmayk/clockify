@@ -1,6 +1,6 @@
 <?php
 
-namespace Clockify\Workspace\Workspace;
+namespace Clockify\Workspace;
 
 /**
  * Workspace class.
