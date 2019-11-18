@@ -2,8 +2,6 @@
 
 namespace Clockify;
 
-use GuzzleHttp\Client;
-
 /**
  * Clockify class.
  */
@@ -66,13 +64,12 @@ class Clockify {
     $url = self::API_BASE_ENDPOINT . $endpoint;
     // Get default headers.
     $headers = $headers + $this->defaultHeaders();
-    $client = new Client();
     // Prepare options.
     $options = array();
     // Add headers.
     $options['headers'] = $headers;
     try {
-      $response = $client->request($type, $url, $options);
+      // TODO Send CURL request.
     }
     catch (Exception $e) {
       $response = $e->getResponse();
